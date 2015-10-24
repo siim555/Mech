@@ -4,7 +4,7 @@ using System.Collections;
 public class bulletMove : MonoBehaviour {
     public float speed;
     private float bulletspeed;
-    private float deltaFrame = 0;
+    //private float deltaFrame = 0;
 	// Use this for initialization
 	void Start () {
         bulletspeed = speed * Time.deltaTime;
@@ -15,7 +15,7 @@ public class bulletMove : MonoBehaviour {
       
         
             transform.position = Vector3.MoveTowards(transform.position, GameObject.FindWithTag("NPC").transform.position, bulletspeed);
-            deltaFrame = 0;
+            //deltaFrame = 0;
         
 	}
 

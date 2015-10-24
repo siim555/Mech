@@ -6,11 +6,13 @@ public class stuff_for_camera : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Screen.orientation = ScreenOrientation.LandscapeLeft;
+
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		if (Input.GetKeyDown (KeyCode.Escape)) {
 			Application.Quit();
 		}
