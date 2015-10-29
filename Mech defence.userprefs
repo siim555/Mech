@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BulletMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\enemySpawn.cs">
     <Files>
-      <File FileName="Assets\Scripts\BulletMovement.cs" Line="17" Column="21" />
-      <File FileName="Assets\Scripts\towerBuildPlace.cs" Line="7" Column="16" />
+      <File FileName="Assets\Scripts\enemySpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\towerBuildPlace.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

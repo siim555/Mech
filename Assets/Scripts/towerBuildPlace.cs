@@ -4,7 +4,7 @@ using System.Collections;
 // 15/10/2015
 public class towerBuildPlace : MonoBehaviour {
 	public GameObject towerPrefab; //The tower that should be built
-	private bool railOnTower = false;
+	private bool railOnTower = false; //To check if tower has been built
 	// Use this for initialization
 	void Start () {
 	

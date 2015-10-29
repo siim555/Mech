@@ -8,8 +8,8 @@ public class enemySpawn : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //enemy = GameObject.Find("firstenemy");
-        enemyexists = true;
+    
+    
         
     }
 
@@ -23,6 +23,8 @@ public class enemySpawn : MonoBehaviour
             g.transform.position = transform.position;
             enemyexists = true;
         }
+
+
     }
 
 }

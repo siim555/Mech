@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{F2641DE5-5444-33EF-3B4D-3C7C41AD2C96}</ProjectGuid>
+	<ProjectGuid>{7553B43F-2E37-6DB4-AB97-88431B2359CD}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -50,8 +50,10 @@
      <Compile Include="Assets\Scripts\TowerMovement.cs" />
      <Compile Include="Assets\Scripts\bulletMove.cs" />
      <Compile Include="Assets\Scripts\enemySpawn.cs" />
+     <Compile Include="Assets\Scripts\reachBase.cs" />
      <Compile Include="Assets\Scripts\sth.cs" />
      <Compile Include="Assets\Scripts\stuff_for_camera.cs" />
+     <Compile Include="Assets\Scripts\textsOnScreen.cs" />
      <Compile Include="Assets\Scripts\towerBuildPlace.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

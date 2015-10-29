@@ -3,7 +3,8 @@ using System.Collections;
 
 public class sth : MonoBehaviour {
 	public float speed = 1;
-    public float health = 100;
+    public float health = 500;
+    public static float enemyHealth;
 	// Use this for initialization
 	void Start () {
 		//transform.Rotate(new Vector3(0, 0, 1), 90);
@@ -13,8 +14,13 @@ public class sth : MonoBehaviour {
 	void Update ()
 	{
 
-		transform.Translate (new Vector3 (1, 0, 0) * Time.deltaTime * speed);
-		//transform.Translate (speed, 0, 0);
+        enemyHealth = health;
+        if (GameObject.FindGameObjectWithTag("tower") != null)
+        {
+
+            transform.Translate(new Vector3(1, 0, 0) * Time.deltaTime * speed);
+        }
+        //transform.Translate (speed, 0, 0);
 		//transform.Rotate(new Vector3(1, 0, 0), 90);
 		//if (transform.position.x <= 3) {
 		//transform.Translate (new Vector3 (1, 0, 0) * Time.deltaTime * speed);
@@ -51,8 +57,5 @@ public class sth : MonoBehaviour {
 
     }
 
-    void OnGUI()
-    {
-        GUI.Label(new Rect(10, 10, 100, 20), health.ToString());
-    }
+   
 }
